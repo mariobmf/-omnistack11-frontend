@@ -1,11 +1,8 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Teste</h1>
-    </div>
-  );
-}
+import './global.css';
+import Logon from './pages/Logon';
 
-export default App;
+export default function App() {
+  return <Logon />;
+}
